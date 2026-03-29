@@ -18,3 +18,6 @@ A simple implementation of a function that returns a line read from a file descr
 
 ### [push_swap](https://github.com/ali-alemami/push_swap)
 Sorting algorithm using stack operations
+
+### [pipex](https://github.com/ali-alemami/pipex)
+This project focuses on handling pipes.
