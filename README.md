@@ -19,14 +19,14 @@ A simple implementation of a function that returns a line read from a file descr
 ### [minitalk](https://github.com/ali-alemami/minitalk)
 A client-server communication program in C that transmits strings via inter-process communication (IPC) using only UNIX signals.
 
+### [fract-ol](https://github.com/ali-alemami/fract-ol)
+A high-performance fractal explorer in C using MiniLibX, rendering Mandelbrot and Julia sets with complex mathematical algorithms.
+
 ### [push_swap](https://github.com/ali-alemami/push_swap)
 Sorting algorithm using stack operations
 
 ### [pipex](https://github.com/ali-alemami/pipex)
 This project focuses on handling pipes.
-
-### [fract-ol](https://github.com/ali-alemami/fract-ol)
-A high-performance fractal explorer in C using MiniLibX, rendering Mandelbrot and Julia sets with complex mathematical algorithms.
 
 ### [minishell](https://github.com/ali-alemami/minishell)
 POSIX-style shell in C (team project); parsing, pipes, redirections, builtins, signal handling
