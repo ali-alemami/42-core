@@ -21,3 +21,15 @@ Sorting algorithm using stack operations
 
 ### [pipex](https://github.com/ali-alemami/pipex)
 This project focuses on handling pipes.
+
+### [minishell](https://github.com/ali-alemami/minishell)
+POSIX-style shell in C (team project); parsing, pipes, redirections, builtins, signal handling
+
+### [minirt](https://github.com/ali-alemami/mini_rt)
+Raytracer in C using MiniLibX (team project); ray-object intersections, lighting, shadows
+
+### [philosophers](https://github.com/ali-alemami/philosophers)
+Dining philosophers problem in C; concurrency with pthreads, mutexes, and precise timing
+
+### [CPP Modules 00-09](https://github.com/ali-alemami/cpps)
+C++ fundamentals through STL: OOP, inheritance, polymorphism, templates, containers
