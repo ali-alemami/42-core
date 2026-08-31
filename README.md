@@ -33,3 +33,12 @@ Dining philosophers problem in C; concurrency with pthreads, mutexes, and precis
 
 ### [CPP Modules 00-09](https://github.com/ali-alemami/cpps)
 C++ fundamentals through STL: OOP, inheritance, polymorphism, templates, containers
+
+### [webserv](https://github.com/ali-alemami/webserv) *(In Progress)*
+HTTP server in C++ from scratch: sockets, non-blocking I/O, CGI
+
+### [inception](https://github.com/ali-alemami/inception) *(In Progress)*
+Multi-service infra with Docker: NGINX, WordPress, MariaDB, custom images
+
+### [transcendence](https://github.com/ali-alemami/transcendence) *(In Progress)*
+Full-stack web app: real-time gameplay, user management, containerized deployment
