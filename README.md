@@ -16,6 +16,9 @@ A simple implementation of the original C function printf
 ### [get_next_line](https://github.com/ali-alemami/get_next_line)
 A simple implementation of a function that returns a line read from a file descriptor
 
+### [minitalk](https://github.com/ali-alemami/minitalk)
+A client-server communication program in C that transmits strings via inter-process communication (IPC) using only UNIX signals.
+
 ### [push_swap](https://github.com/ali-alemami/push_swap)
 Sorting algorithm using stack operations
 
