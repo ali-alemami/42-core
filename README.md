@@ -25,6 +25,9 @@ Sorting algorithm using stack operations
 ### [pipex](https://github.com/ali-alemami/pipex)
 This project focuses on handling pipes.
 
+### [fract-ol](https://github.com/ali-alemami/fract-ol)
+A high-performance fractal explorer in C using MiniLibX, rendering Mandelbrot and Julia sets with complex mathematical algorithms.
+
 ### [minishell](https://github.com/ali-alemami/minishell)
 POSIX-style shell in C (team project); parsing, pipes, redirections, builtins, signal handling
 
