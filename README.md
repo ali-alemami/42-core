@@ -30,18 +30,15 @@ This repository serves as the central directory for my implementations and solut
 | **[push_swap](https://github.com/ali-alemami/push_swap)** | Dual-stack sorting algorithm using coordinate compression and lookahead binary radix sort. | C | Completed |
 | **[pipex](https://github.com/ali-alemami/pipex)** | Unix pipeline simulator replicating shell redirection using `pipe()`, `fork()`, `dup2()`, and `execve()`. | C | Completed |
 | **[minitalk](https://github.com/ali-alemami/minitalk)** | Client-server communication protocol using exclusively UNIX signals (`SIGUSR1`, `SIGUSR2`). | C | Completed |
-| **fract-ol** | Real-time mathematical fractal renderer (Mandelbrot and Julia sets) using MiniLibX. | C | Completed (Private) |
 
 ### Rank 03
 | Project | Description | Language | Status |
 | :--- | :--- | :---: | :---: |
-| **minishell** | Custom Unix-like shell with AST parsing, pipeline execution, environment expansion, and signals. | C | Completed (Private) |
 | **[philo](https://github.com/ali-alemami/philo)** | Multithreaded simulation of Dijkstra's Dining Philosophers using pthreads and mutexes. | C | Completed |
 
 ### Rank 04
 | Project | Description | Language | Status |
 | :--- | :--- | :---: | :---: |
-| **mini_rt** | 3D ray tracing engine implementing vector mathematics, object intersections, and Phong lighting. | C | Completed (Private) |
 | **[cpps](https://github.com/ali-alemami/cpps)** *(CPP 00–04)* | C++98 foundations: classes, Orthodox Canonical Form, inheritance, and subtype polymorphism. | C++98 | Completed |
 | **NetPractice** | Practical networking exercises configuring IP addressing, subnet masks, and routing tables. | Networking | Completed |
 
@@ -60,6 +57,5 @@ This repository serves as the central directory for my implementations and solut
 - **Low-Level C Programming**: Memory management, pointer arithmetic, bitwise operations, system calls.
 - **Unix Systems Architecture**: Process life cycles, file descriptor manipulation, IPC via signals and pipes, POSIX compliance.
 - **Concurrent Programming**: Multithreading with pthreads, mutex synchronization, race-condition mitigation.
-- **Computer Graphics**: Ray casting, vector geometry, lighting models, frame-buffer rendering.
 - **Object-Oriented Design**: Orthodox Canonical Form, inheritance hierarchies, abstract interfaces, templates in C++98.
 - **System Administration & Networking**: Virtualization, Docker container orchestration, TCP/IP networking, subnet routing.
