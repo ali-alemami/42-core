@@ -30,18 +30,18 @@ This repository serves as the central directory for my implementations and solut
 | **[push_swap](https://github.com/ali-alemami/push_swap)** | Dual-stack sorting algorithm using coordinate compression and lookahead binary radix sort. | C | Completed |
 | **[pipex](https://github.com/ali-alemami/pipex)** | Unix pipeline simulator replicating shell redirection using `pipe()`, `fork()`, `dup2()`, and `execve()`. | C | Completed |
 | **[minitalk](https://github.com/ali-alemami/minitalk)** | Client-server communication protocol using exclusively UNIX signals (`SIGUSR1`, `SIGUSR2`). | C | Completed |
-| **[fract-ol](https://github.com/ali-alemami/fract-ol)** | Real-time mathematical fractal renderer (Mandelbrot and Julia sets) using MiniLibX. | C | Completed |
+| **fract-ol** | Real-time mathematical fractal renderer (Mandelbrot and Julia sets) using MiniLibX. | C | Completed (Private) |
 
 ### Rank 03
 | Project | Description | Language | Status |
 | :--- | :--- | :---: | :---: |
-| **[minishell](https://github.com/ali-alemami/minishell)** | Custom Unix-like shell with AST parsing, pipeline execution, environment expansion, and signals. | C | Completed |
+| **minishell** | Custom Unix-like shell with AST parsing, pipeline execution, environment expansion, and signals. | C | Completed (Private) |
 | **[philo](https://github.com/ali-alemami/philo)** | Multithreaded simulation of Dijkstra's Dining Philosophers using pthreads and mutexes. | C | Completed |
 
 ### Rank 04
 | Project | Description | Language | Status |
 | :--- | :--- | :---: | :---: |
-| **[mini_rt](https://github.com/ali-alemami/mini_rt)** | 3D ray tracing engine implementing vector mathematics, object intersections, and Phong lighting. | C | Completed |
+| **mini_rt** | 3D ray tracing engine implementing vector mathematics, object intersections, and Phong lighting. | C | Completed (Private) |
 | **[cpps](https://github.com/ali-alemami/cpps)** *(CPP 00–04)* | C++98 foundations: classes, Orthodox Canonical Form, inheritance, and subtype polymorphism. | C++98 | Completed |
 | **NetPractice** | Practical networking exercises configuring IP addressing, subnet masks, and routing tables. | Networking | Completed |
 
@@ -49,9 +49,9 @@ This repository serves as the central directory for my implementations and solut
 | Project | Description | Language | Status |
 | :--- | :--- | :---: | :---: |
 | **[cpps](https://github.com/ali-alemami/cpps)** *(CPP 05–09)* | Advanced C++98: exceptions, type casting, templates, and STL container algorithms. | C++98 | Completed |
-| **[inception](https://github.com/ali-alemami/inception)** | Multi-service infrastructure with Docker Compose (NGINX with TLS, WordPress, MariaDB). | Docker / Bash | In Progress |
-| **[webserv](https://github.com/ali-alemami/webserv)** | Non-blocking HTTP/1.1 web server from scratch using socket I/O multiplexing. | C++98 | In Progress |
-| **[transcendence](https://github.com/ali-alemami/transcendence)** | Full-stack single-page application featuring real-time multiplayer Pong. | TypeScript / Web | In Progress |
+| **inception** | Multi-service infrastructure with Docker Compose (NGINX with TLS, WordPress, MariaDB). | Docker / Bash | In Progress |
+| **webserv** | Non-blocking HTTP/1.1 web server from scratch using socket I/O multiplexing. | C++98 | In Progress |
+| **transcendence** | Full-stack single-page application featuring real-time multiplayer Pong. | TypeScript / Web | In Progress |
 
 ---
 
