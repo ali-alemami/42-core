@@ -1,50 +1,65 @@
-# 42-core
-Some of the projects in the core curriculum in 42 school with my own solutions
+# 42 Common Core
 
-this repo will only contain links to my own implementation for projects in the 42 core curriculum
+This repository serves as the central directory for my implementations and solutions across the [42 School](https://42.fr/) Common Core curriculum at 42 Amman.
 
-# My Projects
+---
 
-## Featured Repositories
+## Curriculum Progress (Holy Graph)
 
-### [Libft](https://github.com/ali-alemami/Libft)
-My very first own library - custom C standard library implementation
+![42 Holy Graph](assets/holy_graph.png)
 
-### [ft_printf](https://github.com/ali-alemami/ft_printf)
-A simple implementation of the original C function printf
+---
 
-### [get_next_line](https://github.com/ali-alemami/get_next_line)
-A simple implementation of a function that returns a line read from a file descriptor
+## Projects Overview
 
-### [minitalk](https://github.com/ali-alemami/minitalk)
-A client-server communication program in C that transmits strings via inter-process communication (IPC) using only UNIX signals.
+### Rank 00
+| Project | Description | Language | Status |
+| :--- | :--- | :---: | :---: |
+| **[libft](https://github.com/ali-alemami/libft)** | Custom C standard library implementing essential libc functions and linked list utilities. | C | Completed |
 
-### [fract-ol](https://github.com/ali-alemami/fract-ol)
-A high-performance fractal explorer in C using MiniLibX, rendering Mandelbrot and Julia sets with complex mathematical algorithms.
+### Rank 01
+| Project | Description | Language | Status |
+| :--- | :--- | :---: | :---: |
+| **[ft_printf](https://github.com/ali-alemami/ft_printf)** | Custom implementation of formatted output conversion (`printf`). | C | Completed |
+| **[get_next_line](https://github.com/ali-alemami/get_next_line)** | Reading text line-by-line from a file descriptor using static buffer persistence. | C | Completed |
+| **Born2beroot** | System administration project: setting up a secure Debian VM with LVM, sudo policies, and UFW firewall. | SysAdmin | Completed |
 
-### [push_swap](https://github.com/ali-alemami/push_swap)
-Sorting algorithm using stack operations
+### Rank 02
+| Project | Description | Language | Status |
+| :--- | :--- | :---: | :---: |
+| **[push_swap](https://github.com/ali-alemami/push_swap)** | Dual-stack sorting algorithm using coordinate compression and lookahead binary radix sort. | C | Completed |
+| **[pipex](https://github.com/ali-alemami/pipex)** | Unix pipeline simulator replicating shell redirection using `pipe()`, `fork()`, `dup2()`, and `execve()`. | C | Completed |
+| **[minitalk](https://github.com/ali-alemami/minitalk)** | Client-server communication protocol using exclusively UNIX signals (`SIGUSR1`, `SIGUSR2`). | C | Completed |
+| **[fract-ol](https://github.com/ali-alemami/fract-ol)** | Real-time mathematical fractal renderer (Mandelbrot and Julia sets) using MiniLibX. | C | Completed |
 
-### [pipex](https://github.com/ali-alemami/pipex)
-This project focuses on handling pipes.
+### Rank 03
+| Project | Description | Language | Status |
+| :--- | :--- | :---: | :---: |
+| **[minishell](https://github.com/ali-alemami/minishell)** | Custom Unix-like shell with AST parsing, pipeline execution, environment expansion, and signals. | C | Completed |
+| **[philo](https://github.com/ali-alemami/philo)** | Multithreaded simulation of Dijkstra's Dining Philosophers using pthreads and mutexes. | C | Completed |
 
-### [minishell](https://github.com/ali-alemami/minishell)
-POSIX-style shell in C (team project); parsing, pipes, redirections, builtins, signal handling
+### Rank 04
+| Project | Description | Language | Status |
+| :--- | :--- | :---: | :---: |
+| **[mini_rt](https://github.com/ali-alemami/mini_rt)** | 3D ray tracing engine implementing vector mathematics, object intersections, and Phong lighting. | C | Completed |
+| **[cpps](https://github.com/ali-alemami/cpps)** *(CPP 00–04)* | C++98 foundations: classes, Orthodox Canonical Form, inheritance, and subtype polymorphism. | C++98 | Completed |
+| **NetPractice** | Practical networking exercises configuring IP addressing, subnet masks, and routing tables. | Networking | Completed |
 
-### [minirt](https://github.com/ali-alemami/mini_rt)
-Raytracer in C using MiniLibX (team project); ray-object intersections, lighting, shadows
+### Rank 05
+| Project | Description | Language | Status |
+| :--- | :--- | :---: | :---: |
+| **[cpps](https://github.com/ali-alemami/cpps)** *(CPP 05–09)* | Advanced C++98: exceptions, type casting, templates, and STL container algorithms. | C++98 | Completed |
+| **[inception](https://github.com/ali-alemami/inception)** | Multi-service infrastructure with Docker Compose (NGINX with TLS, WordPress, MariaDB). | Docker / Bash | In Progress |
+| **[webserv](https://github.com/ali-alemami/webserv)** | Non-blocking HTTP/1.1 web server from scratch using socket I/O multiplexing. | C++98 | In Progress |
+| **[transcendence](https://github.com/ali-alemami/transcendence)** | Full-stack single-page application featuring real-time multiplayer Pong. | TypeScript / Web | In Progress |
 
-### [philosophers](https://github.com/ali-alemami/philosophers)
-Dining philosophers problem in C; concurrency with pthreads, mutexes, and precise timing
+---
 
-### [CPP Modules 00-09](https://github.com/ali-alemami/cpps)
-C++ fundamentals through STL: OOP, inheritance, polymorphism, templates, containers
+## Core Competencies Developed
 
-### [webserv](https://github.com/ali-alemami/webserv) *(In Progress)*
-HTTP server in C++ from scratch: sockets, non-blocking I/O, CGI
-
-### [inception](https://github.com/ali-alemami/inception) *(In Progress)*
-Multi-service infra with Docker: NGINX, WordPress, MariaDB, custom images
-
-### [transcendence](https://github.com/ali-alemami/transcendence) *(In Progress)*
-Full-stack web app: real-time gameplay, user management, containerized deployment
+- **Low-Level C Programming**: Memory management, pointer arithmetic, bitwise operations, system calls.
+- **Unix Systems Architecture**: Process life cycles, file descriptor manipulation, IPC via signals and pipes, POSIX compliance.
+- **Concurrent Programming**: Multithreading with pthreads, mutex synchronization, race-condition mitigation.
+- **Computer Graphics**: Ray casting, vector geometry, lighting models, frame-buffer rendering.
+- **Object-Oriented Design**: Orthodox Canonical Form, inheritance hierarchies, abstract interfaces, templates in C++98.
+- **System Administration & Networking**: Virtualization, Docker container orchestration, TCP/IP networking, subnet routing.
